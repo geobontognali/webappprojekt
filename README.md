@@ -53,7 +53,7 @@ bash init.sh
 The folders property of the Homestead.yaml file lists all of the folders you wish to sync with your Homestead Box. 
 ```
 folders:
-- map: ~/yourSharedPath/lineup
+- map: ~/yourSharedPath/{THIS REPO GOES HERE}
   to: /home/vagrant/lineup
 ```
 This is the folder where we are going to clone the existing Project directory
