@@ -112,33 +112,33 @@ function timeHighlighting(){
     switch (true) {
         case (hourIndex >= 8 && hourIndex < 10):
             var divid = "#d"+dayIndex+"r"+1;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             var divid = "#m"+dayIndex+"r"+1;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             break;
         case (hourIndex >= 10 && hourIndex < 12):
             var divid = "#d"+dayIndex+"r"+2;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             var divid = "#m"+dayIndex+"r"+2;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             break;
         case (hourIndex >= 13 && hourIndex < 15):
             var divid = "#d"+dayIndex+"r"+3;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             var divid = "#m"+dayIndex+"r"+3;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             break;
         case (hourIndex >= 15 && hourIndex < 17):
             var divid = "#d"+dayIndex+"r"+4;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             var divid = "#m"+dayIndex+"r"+4;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             break;
         case (hourIndex >= 17 && hourIndex < 19):
             var divid = "#d"+dayIndex+"r"+5;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             var divid = "#m"+dayIndex+"r"+5;
-            $(divid).parent().css("box-shadow", "0px 0px 3px red");
+            $(divid).parent().css("box-shadow", "0px 0px 3px blue");
             break;
     }
 }
