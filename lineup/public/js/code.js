@@ -107,8 +107,7 @@ function timeHighlighting(){
     var today = new Date();
 
     var dayIndex = today.getDay();
-    //var hourIndex = today.getHours();
-    var hourIndex = 10;
+    var hourIndex = today.getHours();
 
     switch (true) {
         case (hourIndex >= 8 && hourIndex < 10):
